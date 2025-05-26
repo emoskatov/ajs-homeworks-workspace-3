@@ -22,6 +22,7 @@ export default [
       'no-unused-vars': ['warn', { 'args': 'none' }], // Предупреждает о неиспользуемых переменных
       'space-before-blocks': ['error', 'always'], // Требует пробел перед открывающей скобкой блока
       'space-infix-ops': 'error', // Требует пробелы вокруг инфиксных операторов
+      'no-multiple-empty-lines': 'warn', //
       'no-var': 'error', // Запрещает использование var
       'no-cond-assign': ['error', 'always'], // Запрещает присваивание в условных выражениях
       'no-alert': 'error', // Запрещает использование alert, confirm, prompt
